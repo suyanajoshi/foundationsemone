@@ -19,3 +19,5 @@ VALUES
 (6, 'Pooja', 'pooja@email.com', 'Sports Club', 'R202', 'Ms. Sita', '2024/01/27'),
 (3, 'Nisha', 'nisha@email.com', 'Coding Club', 'Lab1', 'Mr. Anil', '2024/01/28'),
 (7, 'Aman', 'aman@email.com', 'Coding Club', 'Lab1', 'Mr. Anil', '2024/01/30');
+INSERT INTO Student (StudentID, StudentName, Email) 
+VALUES (8, 'Suyana', 'suyanajoshi@gmail.com');
