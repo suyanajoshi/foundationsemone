@@ -24,3 +24,4 @@ VALUES (8, 'Suyana', 'suyanajoshi@gmail.com');
 INSERT INTO Club (ClubID, ClubName, ClubRoom, ClubMentor) 
 VALUES (105, 'Dance Club', 'R404', 'Ms. Gita');
 SELECT * FROM Student;
+SELECT * FROM Club;
