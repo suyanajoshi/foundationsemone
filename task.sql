@@ -21,3 +21,5 @@ VALUES
 (7, 'Aman', 'aman@email.com', 'Coding Club', 'Lab1', 'Mr. Anil', '2024/01/30');
 INSERT INTO Student (StudentID, StudentName, Email) 
 VALUES (8, 'Suyana', 'suyanajoshi@gmail.com');
+INSERT INTO Club (ClubID, ClubName, ClubRoom, ClubMentor) 
+VALUES (105, 'Dance Club', 'R404', 'Ms. Gita');
