@@ -75,3 +75,47 @@ Figure 6: Permutation Figure
 
 <img width="922" height="447" alt="image" src="https://github.com/user-attachments/assets/f554c192-0387-48d8-9186-5e5fa5c721e6" />
 Figure 7: ER Diagram
+
+
+## 6. Code Implementation
+### 1. Database
+```
+CREATE DATABASE coursework;
+USE coursework;
+```
+
+### 2. 
+```
+CREATE DATABASE coursework;
+```
+
+## 7. Code Implementation Result
+
+### 1. 1NF 
+<img width="928" height="318" alt="image" src="https://github.com/user-attachments/assets/fa6b454c-382d-481b-9718-a8ada96ec7b4" />
+
+### 2. 2NF
+<img width="918" height="359" alt="image" src="https://github.com/user-attachments/assets/75b004dc-1f80-4900-af52-64ae51ec7d1e" />
+<img width="918" height="327" alt="image" src="https://github.com/user-attachments/assets/9fdc8bc1-8a4d-458f-9877-04e67d0e840d" />
+<img width="929" height="524" alt="image" src="https://github.com/user-attachments/assets/8cf5dec7-796d-47b3-aa62-35b7d8debedd" />
+
+### 3. The Student Table
+<img width="938" height="519" alt="image" src="https://github.com/user-attachments/assets/f7eeb2bb-c0a4-4fb5-bdc6-f89e0daa26d6" />
+
+### 4. The Club Table
+<img width="938" height="403" alt="image" src="https://github.com/user-attachments/assets/e64ef2d4-6a7c-440a-9058-3f84e69b313a" />
+
+### 5. JOIN Operation Name
+<img width="939" height="697" alt="image" src="https://github.com/user-attachments/assets/c7dd3e5e-5fe8-476e-8e57-f5a5448f8246" />
+
+### 6. JOIN Operation Table
+<img width="937" height="689" alt="image" src="https://github.com/user-attachments/assets/2a3f1885-02a1-470a-9c4e-a92e04c8ab84" />
+
+## 7. Limitations
+
+Some limitations of the study include:
+1. The project focuses mainly on conceptual analysis rather than full system implementation.
+2. Real-world database systems may involve additional complexities beyond the examples discussed.
+
+## 8. Conclusion
+The coursework looks at the most important ideas. Those ideas includes sharing data safely, using math logics and designing databases. The encoding formats are described firstly. These includes ASCII, Base64, URL Encoding and Hexadecimal. These help different computers to communicate. Moreover, they do this without errors. However, these formats do not keep data secret on their own. Rules like TLS must be used to fix this. The coursework also showed the use of math and logic. It helps to solve problems. Moreover, three simple steps help to make the table normalized. This made the system faster. A strong system needs three things. Those are the right data formats, clear logic and clean tables. These work together to keep information safe and correct. It also makes the system efficient.
