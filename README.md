@@ -55,25 +55,32 @@ Summarizes the key findings and emphasizes the importance of secure data exchang
 ## 5. Figures Included in the Report
 The report contains several figures to visually explain important concepts.
 
-<img width="806" height="419" alt="image" src="https://github.com/user-attachments/assets/83fdde1b-2054-47b9-be5a-21501760f151" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/83fdde1b-2054-47b9-be5a-21501760f151" />
+
 Figure 1: Encoding Process
 
-<img width="923" height="950" alt="image" src="https://github.com/user-attachments/assets/7cc36539-57b6-4a30-b70a-566a79978d30" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/7cc36539-57b6-4a30-b70a-566a79978d30" />
+
 Figure 2: Table of comparison of encoding formats
 
-<img width="831" height="565" alt="image" src="https://github.com/user-attachments/assets/f3f38b09-13de-4edd-aa21-dcc0de4e7148" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/f3f38b09-13de-4edd-aa21-dcc0de4e7148" />
+
 Figure 3: Encoding and TLS in HTTPS Data Transmission
 
-<img width="767" height="721" alt="image" src="https://github.com/user-attachments/assets/a1389667-0890-47ea-9a45-186bdc6e8771" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/a1389667-0890-47ea-9a45-186bdc6e8771" />
+
 Figure 4: Universal Set Representation of Students
 
 <img width="923" height="235" alt="image" src="https://github.com/user-attachments/assets/63446185-384b-420a-b92c-733be2b76cf9" />
+
 Figure 5: Figure of Boolean Logic
 
-<img width="871" height="450" alt="image" src="https://github.com/user-attachments/assets/e3bcd2a9-bddb-4a83-a78f-9a2dd41ddb66" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/e3bcd2a9-bddb-4a83-a78f-9a2dd41ddb66" />
+
 Figure 6: Permutation Figure
 
-<img width="922" height="447" alt="image" src="https://github.com/user-attachments/assets/f554c192-0387-48d8-9186-5e5fa5c721e6" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/f554c192-0387-48d8-9186-5e5fa5c721e6" />
+
 Figure 7: ER Diagram
 
 
