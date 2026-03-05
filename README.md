@@ -255,6 +255,7 @@ Some limitations of the study include:
 I used these tools to finish the project:
 Microsoft Word: To write the report.
 Draw.io: To make the charts and figures.
+SQL: To show how the database works.
 
 ## 8. Conclusion
 The coursework looks at the most important ideas. Those ideas includes sharing data safely, using math logics and designing databases. The encoding formats are described firstly. These includes ASCII, Base64, URL Encoding and Hexadecimal. These help different computers to communicate. Moreover, they do this without errors. However, these formats do not keep data secret on their own. Rules like TLS must be used to fix this. The coursework also showed the use of math and logic. It helps to solve problems. Moreover, three simple steps help to make the table normalized. This made the system faster. A strong system needs three things. Those are the right data formats, clear logic and clean tables. These work together to keep information safe and correct. It also makes the system efficient.
