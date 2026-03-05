@@ -93,7 +93,7 @@ USE coursework;
 
 ### 2. Unnormalized Table
 ```
-CREATE TABLE StudentClub (
+CREATE TABLE StudentsClub (
     StudentID INT,
     StudentName VARCHAR(50),
     Email VARCHAR(50),
@@ -104,7 +104,7 @@ CREATE TABLE StudentClub (
 );
 ```
 ```
-INSERT INTO StudentClub VALUES
+INSERT INTO StudentsClub VALUES
 (1,'Asha','asha@email.com','Music Club','R101','Mr. Raman','2024-01-10'),
 (2,'Bikash','bikash@email.com','Sports Club','R202','Ms. Sita','2024-01-12'),
 (1,'Asha','asha@email.com','Sports Club','R202','Ms. Sita','2024-01-15'),
@@ -132,14 +132,14 @@ CREATE TABLE StudentClub_1NF (
 
 ### 3. 2NF
 ```
-CREATE TABLE Students (
+CREATE TABLE Students_2NF (
     StudentID INT PRIMARY KEY,
     StudentName VARCHAR(50),
     Email VARCHAR(50)
 );
 ```
 ```
-CREATE TABLE Clubs (
+CREATE TABLE Club_2NF (
     ClubID INT PRIMARY KEY,
     ClubName VARCHAR(50),
     ClubRoom VARCHAR(20),
@@ -147,7 +147,7 @@ CREATE TABLE Clubs (
 );
 ```
 ```
-CREATE TABLE Membership (
+CREATE TABLE Membershipp_2NF (
     MembershipID INT PRIMARY KEY,
     StudentID INT,
     ClubID INT,
@@ -156,7 +156,35 @@ CREATE TABLE Membership (
     FOREIGN KEY (ClubID) REFERENCES Clubs(ClubID)
 );
 ```
-
+```
+INSERT INTO Students_2NF VALUES
+(1,'Asha','asha@email.com'),
+(2,'Bikash','bikash@email.com'),
+(3,'Nisha','nisha@email.com'),
+(4,'Rohan','rohan@email.com'),
+(5,'Suman','suman@email.com'),
+(6,'Pooja','pooja@email.com');
+```
+```
+INSERT INTO Club_2NF VALUES
+(101,'Music Club','R101','Mr. Raman'),
+(102,'Sports Club','R202','Ms. Sita'),
+(103,'Drama Club','R303','Mr. Kiran'),
+(104,'Coding Club','Lab1','Mr. Anil');
+```
+```
+INSERT INTO Membershipp_2NF VALUES
+(1,1,101,'2024-01-10'),
+(2,2,102,'2024-01-12'),
+(3,1,102,'2024-01-15'),
+(4,3,101,'2024-01-20'),
+(5,4,103,'2024-01-18'),
+(6,5,101,'2024-01-22'),
+(7,2,103,'2024-01-25'),
+(8,6,102,'2024-01-27'),
+(9,3,104,'2024-01-28');
+);
+```
 ## 7. Code Implementation Result
 
 ### 1. 1NF 
