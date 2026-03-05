@@ -185,6 +185,44 @@ INSERT INTO Membershipp_2NF VALUES
 (9,3,104,'2024-01-28');
 );
 ```
+
+### 4. New student
+```
+INSERT INTO Students_2NF (StudentID, StudentName, Email)
+VALUES (8, 'Suyana', 'joshisuyana5@.com');
+```
+
+## 5. New Club
+```
+INSERT INTO Club_2NF (ClubID, ClubName, ClubRoom, ClubMentor)
+VALUES (5, 'Dance Club', 'R505', 'Ms. Tara');
+```
+
+## 6. JOIN Command
+```
+INSERT INTO Enrollments_3NF (EnrollmentID, StudentID, ClubID, JoinDate)
+VALUES (11, 8, 5, '2026-02-26');
+```
+```
+SELECT
+     S.StudentName,
+     C.ClubName,
+     M.JoinDate
+FROM Membershipp_2NF M
+JOIN Students_2NF S ON M.StudentID = S.StudentID
+JOIN Club_2NF C ON M.ClubID = C.ClubID;
+```
+```
+ SELECT
+     M.MembershipID,
+     M.StudentID,
+     M.ClubID,
+     M.JoinDate
+FROM Membershipp_2NF M
+JOIN Students_2NF S ON M.StudentID = S.StudentID
+JOIN Club_2NF C ON M.ClubID = C.ClubID;
+```
+
 ## 7. Code Implementation Result
 
 ### 1. 1NF 
