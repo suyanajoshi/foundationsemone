@@ -102,7 +102,8 @@ CREATE TABLE StudentClub (
     ClubMentor VARCHAR(50),
     JoinDate DATE
 );
-
+```
+```
 INSERT INTO StudentClub VALUES
 (1,'Asha','asha@email.com','Music Club','R101','Mr. Raman','2024-01-10'),
 (2,'Bikash','bikash@email.com','Sports Club','R202','Ms. Sita','2024-01-12'),
@@ -128,6 +129,34 @@ CREATE TABLE StudentClub_1NF (
     PRIMARY KEY (StudentID, ClubName)
 );
 ```
+
+### 3. 2NF
+```
+CREATE TABLE Students (
+    StudentID INT PRIMARY KEY,
+    StudentName VARCHAR(50),
+    Email VARCHAR(50)
+);
+```
+```
+CREATE TABLE Clubs (
+    ClubID INT PRIMARY KEY,
+    ClubName VARCHAR(50),
+    ClubRoom VARCHAR(20),
+    ClubMentor VARCHAR(50)
+);
+```
+```
+CREATE TABLE Membership (
+    MembershipID INT PRIMARY KEY,
+    StudentID INT,
+    ClubID INT,
+    JoinDate DATE,
+    FOREIGN KEY (StudentID) REFERENCES Students(StudentID),
+    FOREIGN KEY (ClubID) REFERENCES Clubs(ClubID)
+);
+```
+
 ## 7. Code Implementation Result
 
 ### 1. 1NF 
