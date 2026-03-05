@@ -84,9 +84,17 @@ CREATE DATABASE coursework;
 USE coursework;
 ```
 
-### 2. 
+### 2. Unnormalized Table
 ```
-CREATE DATABASE coursework;
+CREATE TABLE StudentClub (
+    StudentID INT,
+    StudentName VARCHAR(50),
+    Email VARCHAR(50),
+    ClubName VARCHAR(50),
+    ClubRoom VARCHAR(20),
+    ClubMentor VARCHAR(50),
+    JoinDate DATE
+);
 ```
 
 ## 7. Code Implementation Result
